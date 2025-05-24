@@ -68,7 +68,7 @@ Ela é utilizada para receber dados enviados pelo cliente.
       body: JSON.stringify({ message: "hello" })
     });
     console.log("POST:", await postResponse.json());
-  }
+  };
   
 
 O servidor responde com um objeto JSON obtendo a chave received, que tem o valor enviado no (req.body)
